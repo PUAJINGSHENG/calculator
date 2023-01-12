@@ -30,8 +30,7 @@ public class Calculator {
     private boolean go = true; // For calculate with Opt != (=)
     private boolean addWrite = true; // Connect numbers in display
     private double val = 0; // Save the value typed for calculation
-private double val2 = 0;
-val2 = 0;val2 = 0;
+
     /*
         Mx Calculator:
         X = Row
