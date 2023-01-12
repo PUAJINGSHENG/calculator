@@ -30,12 +30,13 @@ public class Calculator {
     private boolean go = true; // For calculate with Opt != (=)
     private boolean addWrite = true; // Connect numbers in display
     private double val = 0; // Save the value typed for calculation
-
+private double val2 = 0;
+val2 = 0;val2 = 0;
     /*
-        Mx Calculator: 
+        Mx Calculator:
         X = Row
         Y = Column
-    
+
         +-------------------+
         |   +-----------+   |   y[0]
         |   |           |   |
@@ -48,10 +49,10 @@ public class Calculator {
         |   .   0     =     |   y[5]
         +-------------------+
          x[0] x[1] x[2] x[3]
-    
+
     */
-    
-    /*    
+
+    /*
         +-------------------+
         |   +-----------+   |   y[0]
         |   |           |   |
@@ -64,7 +65,7 @@ public class Calculator {
         |   16  17    18    |   y[5]
         +-------------------+
          x[0] x[1] x[2] x[3]
-    
+
     */
 
     public Calculator() {
